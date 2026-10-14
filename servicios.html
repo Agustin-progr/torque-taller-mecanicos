@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conocé los servicios de TORQUE: diagnóstico, mantenimiento y reparación automotriz.">
+  <meta name="theme-color" content="#121212">
+  <title>Servicios | TORQUE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">T</span>
+        <span>TORQUE<span class="brand-dot">.</span><small>TALLER MECÁNICO</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="main-menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html" aria-current="page">Servicios</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="button button-small button-primary" href="contacto.html">Solicitar turno <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero services-hero">
+      <div class="container page-hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> SERVICIOS TORQUE</p>
+        <h1>El cuidado de tu auto,<br><span>sin dejar nada al azar.</span></h1>
+        <p>Desde el mantenimiento preventivo hasta la evaluación de una falla: cada vehículo necesita atención adecuada.</p>
+        <a class="button button-primary" href="contacto.html">Consultar por mi vehículo <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">NUESTROS SERVICIOS</p>
+            <h2 class="section-title">Un enfoque claro.<br><span>Un trabajo responsable.</span></h2>
+          </div>
+          <p class="heading-description">Consultanos por tu modelo, el problema que presenta y el tipo de atención que necesitás.</p>
+        </div>
+
+        <div class="service-list">
+          <article class="service-row" id="diagnostico">
+            <div class="service-number">01</div>
+            <div class="service-main">
+              <p class="eyebrow">EVALUACIÓN</p>
+              <h3>Diagnóstico mecánico</h3>
+              <p>Revisión de síntomas, evaluación de posibles fallas y orientación sobre los pasos a seguir.</p>
+              <ul class="service-tags">
+                <li>Detección de fallas</li>
+                <li>Evaluación inicial</li>
+                <li>Orientación técnica</li>
+              </ul>
+            </div>
+            <a class="service-link" href="contacto.html?servicio=Diagnóstico%20mecánico" aria-label="Consultar por diagnóstico mecánico">↗</a>
+          </article>
+
+          <article class="service-row" id="mantenimiento">
+            <div class="service-number">02</div>
+            <div class="service-main">
+              <p class="eyebrow">PREVENCIÓN</p>
+              <h3>Mantenimiento preventivo</h3>
+              <p>Controles y tareas de mantenimiento orientados a conservar el funcionamiento del vehículo.</p>
+              <ul class="service-tags">
+                <li>Revisión general</li>
+                <li>Control de fluidos</li>
+                <li>Plan de mantenimiento</li>
+              </ul>
+            </div>
+            <a class="service-link" href="contacto.html?servicio=Mantenimiento%20preventivo" aria-label="Consultar por mantenimiento preventivo">↗</a>
+          </article>
+
+          <article class="service-row" id="reparaciones">
+            <div class="service-number">03</div>
+            <div class="service-main">
+              <p class="eyebrow">SOLUCIÓN</p>
+              <h3>Reparaciones mecánicas</h3>
+              <p>Evaluación del problema y propuesta de reparación acorde al estado y las necesidades del vehículo.</p>
+              <ul class="service-tags">
+                <li>Evaluación de averías</li>
+                <li>Presupuesto previo</li>
+                <li>Seguimiento del trabajo</li>
+              </ul>
+            </div>
+            <a class="service-link" href="contacto.html?servicio=Reparaciones%20mecánicas" aria-label="Consultar por reparaciones mecánicas">↗</a>
+          </article>
+
+          <article class="service-row" id="revision">
+            <div class="service-number">04</div>
+            <div class="service-main">
+              <p class="eyebrow">CONTROL</p>
+              <h3>Revisión general</h3>
+              <p>Inspección orientativa del estado del vehículo para detectar aspectos que conviene revisar.</p>
+              <ul class="service-tags">
+                <li>Control visual</li>
+                <li>Estado general</li>
+                <li>Recomendaciones</li>
+              </ul>
+            </div>
+            <a class="service-link" href="contacto.html?servicio=Revisión%20general" aria-label="Consultar por revisión general">↗</a>
+          </article>
+        </div>
+
+        <p class="disclaimer">Los trabajos disponibles, los plazos y los presupuestos se confirman luego de consultar el vehículo y evaluar el servicio solicitado.</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-content">
+        <div>
+          <p class="eyebrow">¿NO SABÉS QUÉ NECESITA?</p>
+          <h2>Contanos qué le pasa<br>a tu <span>vehículo.</span></h2>
+        </div>
+        <a class="button button-primary" href="contacto.html">Consultar ahora <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">T</span>
+        <span>TORQUE<span class="brand-dot">.</span><small>TALLER MECÁNICO</small></span>
+      </a>
+      <p>Precisión, confianza y compromiso.</p>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> TORQUE. Todos los derechos reservados.</span>
+      <span>Hecho con atención al detalle.</span>
+    </div>
+  </footer>
+</body>
+</html>
